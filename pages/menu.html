@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Useless Instructions</title>
+    <link rel="icon" type="image/png" href="https://uploads.onecompiler.io/44gxesjjg/1793314534116/image_1793314538050.png">
+    <script src="../js/menu.js" defer></script>
+</head>
+<body>
+    <button style="background-color: white;" id="backButton" onclick="window.location.href='../index.html'">X</button><br><br>
+    <select id="menuSelect">
+        <option value="./writtenArticle.html">View article submission</option>
+        <option value="https://www.google.com/search?q=roll+ten+million+dice">Upgrade to Pro</option>
+    </select>
+<button id="goButton" onclick="goToPage(document.getElementById('menuSelect').value)">Go</button>
+</body>
+</html>
