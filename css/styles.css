@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-body { max-width: 700px; margin: 16px; color: black; background: url("https://uploads.onecompiler.io/44gxesjjg/457nguj72/paper.jpg"); }
+body { max-width: 700px; margin: 16px; color: black; background: ../assets/images/paper.jpg }
 h1 { margin: 4px 0; font-size: 40px; }
 h2 { margin-top: 0; font-size: 22px; }
 nav a { color: inherit; text-decoration: none; font-variant: small-caps; }
